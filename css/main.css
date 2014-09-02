@@ -3,8 +3,6 @@
   src: url('../fonts/sword_art_online_font_by_darkblackswords-d5nssbp.otf');
 }
 
-
-
 h1 {
 	font-family: 'SAO-System', sans-serif;
 	font-size: 64px;
@@ -18,6 +16,11 @@ a:link {
 
 a:visited {
 	color: black;
+}
+
+.top-menu-list {
+	width: 100px;
+	display: inline-block;
 }
 
 .top-menu {
