@@ -5,6 +5,8 @@
 
 body {
   font-family: 'SAO-System', sans-serif;
+  background-color: #fff;
+  color: #666;
 }
 
 h1 {
@@ -15,11 +17,11 @@ h1 {
 
 a:link {
   text-decoration: none;
-  color: black;
+  color: #666;
 }
 
 a:visited {
-  color: black;
+  color: #666;
 }
 
 .top-menu-list {
@@ -27,20 +29,74 @@ a:visited {
   display: inline-block;
 }
 
+.top-menu:before {
+  content: "";
+  display: inline-block;
+  height: 120%;
+  vertical-align: middle;
+  margin-right: -0.25em;
+}
+
 .top-menu {
   width: 80px;
   height:80px;
   background:#ccc;
   border: double 10px #fff;
-  border-radius: 100px;
-  -webkit-border-radius: 100px;
-  -moz-border-radius: 100px;
-  display:table-cell;
-  vertical-align:middle;
+  border-radius: 80px;
+  -webkit-border-radius: 80px;
+  -moz-border-radius: 80px;
   text-align: center;
 }
 
-#second-menu-body {
-  width:70%;
+.top-menu-body {
   display: none;
+}
+
+.second-menu {
+  width: 160px;
+  height: 150px;
+}
+
+.second-menu-list {
+  border-bottom: solid 2px #ccc;
+  font-size: 24px;
+  padding: 0px 10px;
+  direction: ltr;
+}
+
+/*
+.second-menu-list i {
+  margin-right: 10px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+}
+
+.second-menu-list i {
+  width: 60px;
+  height:60px;
+  background:#ccc;
+  border: double 10px #fff;
+  border-radius: 60px;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  display: inline-block;
+  vertical-align:middle;
+  text-align: center;
+}
+*/
+
+.popover-content {
+  width: 200px;
+  height: 240px;
+  padding: 0px;
+  overflow: auto;
+  direction:rtl;
+}
+
+.second-menu-scroll　{
+  height: 100%;
+  display: block;
+  overflow: scroll;
+  direction: ltr;
 }
