@@ -117,19 +117,6 @@ a:visited {
   direction:ltr;
 }
 
-/*
-.modal-dialog:before {
-  content: "";
-  display: inline-block;
-  height: 20%;
-  vertical-align: middle;
-}
-*/
-
-.modal-dialog {
-/*  top: 60px; */
-}
-
 .modal-header {
   padding-top: 10px;
   padding-bottom: 10px;
